@@ -8,7 +8,10 @@ import CreditsScene from './scenes/Credits';
 
 const MAP_WIDTH = 1600;
 
-const WIDTH = 1300;
+const WIDTH = window.innerWidth * 0.75;
+
+console.log(window.innerWidth);
+
 const HEIGHT = 600;
 const ZOOM_FACTOR = 1.325;
 
